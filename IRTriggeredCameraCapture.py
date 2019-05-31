@@ -36,7 +36,6 @@ while True:
     value = IRSensor.value
     print("Value is ", value)
     if value==1:
-        count = count +1
         led.on()
         sleep(1)
 
