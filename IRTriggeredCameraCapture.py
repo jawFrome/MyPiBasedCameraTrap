@@ -31,7 +31,7 @@ while True:
         sleep(1)
 
         # Take the picture
-        nextPicture = storageLocation + 'test' + count + '.jpg'
+        nextPicture = storageLocation + 'test' + str(count) + '.jpg'
         camera.rotation = 180
         sleep(5)
         camera.capture(nextPicture)
